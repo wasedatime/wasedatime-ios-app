@@ -25,10 +25,11 @@ struct SideMenu: View {
                 }
             })
             // Tab Buttons ...
-            VStack(alignment: .leading, spacing: 20) {
+            VStack(alignment: .leading, spacing: 10) {
                 SideTabButton(image: "house", title: "Home", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "calendar", title: "Timetable", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "book", title: "Syllabus", selectedTab: $selectedTab, animation: animation)
+                SideTabButton(image: "bus", title: "Campus", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "person.2.circle.fill", title: "About Us", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "questionmark.circle", title: "Help", selectedTab: $selectedTab, animation: animation)
             }

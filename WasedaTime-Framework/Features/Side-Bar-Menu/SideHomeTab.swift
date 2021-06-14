@@ -26,6 +26,8 @@ struct SideHomeTab: View {
                 .tag("Timetable")
             Syllabus()
                 .tag("Syllabus")
+            BusView()
+                .tag("Campus")
             AboutUs()
                 .tag("About Us")
             Help()
