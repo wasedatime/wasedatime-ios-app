@@ -4,13 +4,14 @@
 //
 //  Created by Takumi Otsuka on 10/6/21.
 //
-// RoundedRectangle() {
+//  RoundedRectangle() {
 //   School_Logo   Course_Title   Language
 //   Day           Location
 //   Prof
 //   --------------------------------------
 //   Go_to_Course  Add_Calendar   Review
-// }
+//  }
+//  List of Rounded Rectangles
 
 import SwiftUI
 

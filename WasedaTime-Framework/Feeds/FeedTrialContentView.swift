@@ -4,6 +4,7 @@
 //
 //  Created by Takumi Otsuka on 18/6/21.
 //
+//  Sticky Header
 
 import SwiftUI
 

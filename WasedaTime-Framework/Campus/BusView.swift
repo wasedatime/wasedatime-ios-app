@@ -4,6 +4,7 @@
 //
 //  Created by Takumi Otsuka on 14/6/21.
 //
+//  Similar to JR Bus App
 
 import SwiftUI
 
@@ -79,6 +80,7 @@ struct BusView: View {
 //                            .transition(.opacity)
 //                    }
 //                }
+                
                 HStack {
                     Text("Departure Time")
                         .padding(5)
