@@ -12,6 +12,8 @@
 //   Go_to_Course  Add_Calendar   Review
 //  }
 //  List of Rounded Rectangles
+//  Search Bar Feature ...
+//  A floating filter menu ...
 
 import SwiftUI
 
