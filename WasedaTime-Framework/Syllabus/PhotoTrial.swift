@@ -13,4 +13,5 @@ struct Photo: Identifiable {
     var name: String
 }
 
+// Sample Data ...
 let samplePhotos = (1...20).map { Photo(name: "coffee-\($0)") }

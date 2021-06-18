@@ -16,10 +16,14 @@ struct BusView: View {
         NavigationView {
             VStack(spacing: 20) {
                 Menu {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                        // action
+                    }, label: {
                         Text("Waseda University")
                     })
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                        // action
+                    }, label: {
                         Text("Nishiwaseda Campus")
                     })
                 } label: {
@@ -38,10 +42,14 @@ struct BusView: View {
                 }
                 .font(.system(size: 25, weight: .regular, design: .default))
                 Menu {
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                        // action
+                    }, label: {
                         Text("Nishiwaseda Campus")
                     })
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                    Button(action: {
+                        // action
+                    }, label: {
                         Text("Waseda University")
                     })
                 } label: {
@@ -80,13 +88,17 @@ struct BusView: View {
                         .padding(5)
                 }
                 .font(.system(size: 20, weight: .medium, design: .default))
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    Text("Go!")
-                        .font(.system(size: 50, weight: .regular, design: .default))
-                        .foregroundColor(Color.white)
-                        .padding()
-                        .background(Color("Red"))
-                        .clipShape(Circle())
+                Button(action: {
+                    // action
+                }, label: {
+                    NavigationLink(destination: GoNow()) {
+                        Text("Go!")
+                            .font(.system(size: 50, weight: .regular, design: .default))
+                            .foregroundColor(Color.white)
+                            .padding()
+                            .background(Color("Red"))
+                            .clipShape(Circle())
+                    }
                 })
             }
             .navigationTitle("Campus")
@@ -149,5 +161,11 @@ struct DatePickerWithButtons: View {
             
         }
 
+    }
+}
+
+struct GoNow: View {
+    var body: some View {
+        Text("Bus Data")
     }
 }

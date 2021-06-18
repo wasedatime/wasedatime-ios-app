@@ -22,7 +22,7 @@ struct SyllabusContentView: View {
         NavigationView {
             ScrollView {
                 VStack {
-                    // Search Bar ...
+                    // Search Bar
                     LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
                         ForEach(samplePhotos.indices) { index in
                             Image(samplePhotos[index].name)
