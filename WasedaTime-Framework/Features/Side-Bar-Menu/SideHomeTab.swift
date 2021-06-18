@@ -11,7 +11,7 @@ struct SideHomeTab: View {
     
     @Binding var selectedTab: String
     
-    // Hiding Tab Bar ...
+    // Hiding Tab Bar 
     init(selectedTab: Binding<String>) {
         self._selectedTab = selectedTab
         UITabBar.appearance().isHidden = true
@@ -22,16 +22,12 @@ struct SideHomeTab: View {
             // Views ...
             HomePage()
                 .tag("Home")
-            Timetable()
-                .tag("Timetable")
-            Syllabus()
-                .tag("Syllabus")
-            BusView()
+            Campus()
                 .tag("Campus")
+            Feeds()
+                .tag("Feeds")
             AboutUs()
                 .tag("About Us")
-            Help()
-                .tag("Help")
         }
     }
 }
@@ -50,29 +46,6 @@ struct HomePage: View {
     }
 }
 
-struct Timetable: View {
-    var body: some View {
-        NavigationView {
-            Text("Timetable")
-                .font(.largeTitle)
-                .fontWeight(.heavy)
-                .foregroundColor(.primary)
-                .navigationTitle("Timetable")
-        }
-    }
-}
-
-struct Syllabus: View {
-    var body: some View {
-        NavigationView {
-            Text("Syllabus")
-                .font(.largeTitle)
-                .fontWeight(.heavy)
-                .foregroundColor(.primary)
-                .navigationTitle("Syllabus")
-        }
-    }
-}
 
 struct AboutUs: View {
     var body: some View {
@@ -80,14 +53,26 @@ struct AboutUs: View {
     }
 }
 
-struct Help: View {
+struct Campus: View {
+    var body: some View {
+        BusView()
+    }
+}
+
+struct Feeds: View {
+    var body: some View {
+        FeedTrialContentView()
+    }
+}
+
+struct Profile: View {
     var body: some View {
         NavigationView {
-            Text("Help")
+            Text("Profile")
                 .font(.largeTitle)
                 .fontWeight(.heavy)
                 .foregroundColor(.primary)
-                .navigationTitle("Help")
+                .navigationTitle("Profile")
         }
     }
 }

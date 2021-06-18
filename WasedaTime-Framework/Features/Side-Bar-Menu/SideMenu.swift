@@ -24,22 +24,18 @@ struct SideMenu: View {
                         .padding()
                 }
             })
-            // Tab Buttons ...
+            // Tab Buttons 
             VStack(alignment: .leading, spacing: 10) {
                 SideTabButton(image: "house", title: "Home", selectedTab: $selectedTab, animation: animation)
-                SideTabButton(image: "calendar", title: "Timetable", selectedTab: $selectedTab, animation: animation)
-                SideTabButton(image: "book", title: "Syllabus", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "bus", title: "Campus", selectedTab: $selectedTab, animation: animation)
+                SideTabButton(image: "newspaper", title: "Feeds", selectedTab: $selectedTab, animation: animation)
                 SideTabButton(image: "person.2.circle.fill", title: "About Us", selectedTab: $selectedTab, animation: animation)
-                SideTabButton(image: "questionmark.circle", title: "Help", selectedTab: $selectedTab, animation: animation)
             }
             .padding(.leading, -15)
             .padding(.top, 50)
             
             Spacer()
             
-            SideTabButton(image: "person.circle", title: "Profile", selectedTab: $selectedTab, animation: animation)
-                .padding(.leading, -15)
             // About ...
             Text("App Version 1.0.0")
                 .font(.caption)

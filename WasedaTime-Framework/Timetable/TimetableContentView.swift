@@ -4,7 +4,6 @@
 //
 //  Created by Takumi Otsuka on 10/6/21.
 //
-//  Button at Top Right to add Courses
 //  LazyVGrid {
 //    LazyHGrid {
 //      5 Columns

@@ -20,41 +20,41 @@ struct TabBarView: View {
                 case .home:
                     SideMainView()
                 case .timetable:
-                    Text("Favourites")
+                    TimetableContentView()
                 case .syllabus:
-                    Text("Records")
+                    SyllabusContentView()
                 case .user:
-                    Text("Profile")
+                    Profile()
                 }
                 Spacer()
                 ZStack {
-                    if showPopUp {
-                        PlusMenu(widthAndHeight: geometry.size.width / 7)
-                            .offset(y: -geometry.size.height / 6)
-                    }
+//                    if showPopUp {
+//                        PlusMenu(widthAndHeight: geometry.size.width / 7)
+//                            .offset(y: -geometry.size.height / 6)
+//                    }
                     HStack {
-                        TabBarIcon(viewRouter: viewRouter, assignedPage: .home, width: geometry.size.width / 5, height: geometry.size.height / 28, systemIconName: "homekit", tabName: "Home")
-                        TabBarIcon(viewRouter: viewRouter, assignedPage: .timetable, width: geometry.size.width / 5, height: geometry.size.height / 28, systemIconName: "calendar", tabName: "Timetable")
-                        ZStack {
-                            Circle()
-                                .foregroundColor(.white)
-                                .frame(width: geometry.size.width / 7, height: geometry.size.width / 7)
-                                .shadow(radius: 4)
-                            Image(systemName: "plus.circle.fill")
-                                .resizable()
-                                .aspectRatio(contentMode: .fit)
-                                .frame(width: geometry.size.width / 7 - 6, height: geometry.size.height / 7 - 6)
-                                .foregroundColor(Color("Red"))
-                                .rotationEffect(Angle(degrees: showPopUp ? 90 : 0))
-                        }
-                        .offset(y: -geometry.size.height / 8 / 2)
-                        .onTapGesture {
-                            withAnimation {
-                                showPopUp.toggle()
-                            }
-                        }
-                        TabBarIcon(viewRouter: viewRouter, assignedPage: .syllabus, width: geometry.size.width / 5, height: geometry.size.height / 28, systemIconName: "book", tabName: "Syllabus")
-                        TabBarIcon(viewRouter: viewRouter, assignedPage: .user, width: geometry.size.width / 5, height: geometry.size.height / 28, systemIconName: "person.crop.circle", tabName: "Profile")
+                        TabBarIcon(viewRouter: viewRouter, assignedPage: .home, width: geometry.size.width / 4, height: geometry.size.height / 28, systemIconName: "homekit", tabName: "Home")
+                        TabBarIcon(viewRouter: viewRouter, assignedPage: .timetable, width: geometry.size.width / 4, height: geometry.size.height / 28, systemIconName: "calendar", tabName: "Timetable")
+//                        ZStack {
+//                            Circle()
+//                                .foregroundColor(.white)
+//                                .frame(width: geometry.size.width / 7, height: geometry.size.width / 7)
+//                                .shadow(radius: 4)
+//                            Image(systemName: "plus.circle.fill")
+//                                .resizable()
+//                                .aspectRatio(contentMode: .fit)
+//                                .frame(width: geometry.size.width / 7 - 6, height: geometry.size.height / 7 - 6)
+//                                .foregroundColor(Color("Red"))
+//                                .rotationEffect(Angle(degrees: showPopUp ? 90 : 0))
+//                        }
+//                        .offset(y: -geometry.size.height / 8 / 2)
+//                        .onTapGesture {
+//                            withAnimation {
+//                                showPopUp.toggle()
+//                            }
+//                        }
+                        TabBarIcon(viewRouter: viewRouter, assignedPage: .syllabus, width: geometry.size.width / 4, height: geometry.size.height / 28, systemIconName: "book", tabName: "Syllabus")
+                        TabBarIcon(viewRouter: viewRouter, assignedPage: .user, width: geometry.size.width / 4, height: geometry.size.height / 28, systemIconName: "person.crop.circle", tabName: "Profile")
                     }
                     .frame(width: geometry.size.width, height: geometry.size.height / 8)
                     .background(Color("White2"))
@@ -98,43 +98,43 @@ struct TabBarIcon: View {
     }
 }
 
-struct PlusMenu: View {
-   
-  let widthAndHeight: CGFloat
-   
-  var body: some View {
-    HStack(spacing: 50) {
-      ZStack {
-        Button(action: {}, label: {
-            ZStack {
-                Circle()
-                  .foregroundColor(Color("Red"))
-                  .frame(width: widthAndHeight, height: widthAndHeight)
-                Image(systemName: "bus")
-                  .resizable()
-                  .aspectRatio(contentMode: .fit)
-                  .padding(15)
-                  .frame(width: widthAndHeight, height: widthAndHeight)
-                  .foregroundColor(.white)
-            }
-        })
-      }
-      ZStack {
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-            ZStack {
-                Circle()
-                  .foregroundColor(Color("Red"))
-                  .frame(width: widthAndHeight, height: widthAndHeight)
-                Image(systemName: "signature")
-                  .resizable()
-                  .aspectRatio(contentMode: .fit)
-                  .padding(15)
-                  .frame(width: widthAndHeight, height: widthAndHeight)
-                  .foregroundColor(.white)
-            }
-        })
-      }
-    }
-    .transition(.scale)
-  }
-}
+//struct PlusMenu: View {
+//
+//  let widthAndHeight: CGFloat
+//
+//  var body: some View {
+//    HStack(spacing: 50) {
+//      ZStack {
+//        Button(action: {}, label: {
+//            ZStack {
+//                Circle()
+//                  .foregroundColor(Color("Red"))
+//                  .frame(width: widthAndHeight, height: widthAndHeight)
+//                Image(systemName: "bus")
+//                  .resizable()
+//                  .aspectRatio(contentMode: .fit)
+//                  .padding(15)
+//                  .frame(width: widthAndHeight, height: widthAndHeight)
+//                  .foregroundColor(.white)
+//            }
+//        })
+//      }
+//      ZStack {
+//        Button(action: {}, label: {
+//            ZStack {
+//                Circle()
+//                  .foregroundColor(Color("Red"))
+//                  .frame(width: widthAndHeight, height: widthAndHeight)
+//                Image(systemName: "signature")
+//                  .resizable()
+//                  .aspectRatio(contentMode: .fit)
+//                  .padding(15)
+//                  .frame(width: widthAndHeight, height: widthAndHeight)
+//                  .foregroundColor(.white)
+//            }
+//        })
+//      }
+//    }
+//    .transition(.scale)
+//  }
+//}
