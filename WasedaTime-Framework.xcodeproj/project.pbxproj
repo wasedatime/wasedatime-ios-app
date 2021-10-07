@@ -8,6 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		42ED5BFE270EC067000466F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5BFD270EC067000466F2 /* ContentView.swift */; };
+		42ED5C03270EC14B000466F2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C02270EC14B000466F2 /* HomeView.swift */; };
+		42ED5C06270EC1AC000466F2 /* Glassmorphism.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C05270EC1AC000466F2 /* Glassmorphism.swift */; };
+		42ED5C08270EC1C3000466F2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C07270EC1C3000466F2 /* Color.swift */; };
+		42ED5C0A270EC291000466F2 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C09270EC291000466F2 /* BackButton.swift */; };
+		42ED5C0C270EC2B1000466F2 /* SFSafariViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C0B270EC2B1000466F2 /* SFSafariViewWrapper.swift */; };
+		42ED5C0E270EC2CA000466F2 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C0D270EC2CA000466F2 /* UIApplication.swift */; };
+		42ED5C13270EC30E000466F2 /* Syllabus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C12270EC30E000466F2 /* Syllabus.swift */; };
+		42ED5C15270EC316000466F2 /* SyllabusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C14270EC316000466F2 /* SyllabusViewModel.swift */; };
+		42ED5C17270EC353000466F2 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C16270EC353000466F2 /* NetworkingManager.swift */; };
+		42ED5C19270EC35C000466F2 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C18270EC35C000466F2 /* PreviewProvider.swift */; };
+		42ED5C1B270EC367000466F2 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C1A270EC367000466F2 /* HapticManager.swift */; };
+		42ED5C1D270EC39E000466F2 /* SyllabusDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C1C270EC39E000466F2 /* SyllabusDataService.swift */; };
+		42ED5C22270EC3F2000466F2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C21270EC3F2000466F2 /* BaseView.swift */; };
+		42ED5C24270EC3FD000466F2 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C23270EC3FD000466F2 /* SideMenu.swift */; };
+		42ED5C26270EC423000466F2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C25270EC423000466F2 /* OnboardingView.swift */; };
+		42ED5C28270EC444000466F2 /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C27270EC444000466F2 /* LaunchScreenView.swift */; };
+		42ED5C2D270EC502000466F2 /* SyllabusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C2C270EC502000466F2 /* SyllabusView.swift */; };
+		42ED5C2F270EC509000466F2 /* SyllabusRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C2E270EC509000466F2 /* SyllabusRowView.swift */; };
+		42ED5C31270EC518000466F2 /* SyllabusDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C30270EC518000466F2 /* SyllabusDetailView.swift */; };
+		42ED5C33270EC564000466F2 /* PieSliceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C32270EC564000466F2 /* PieSliceView.swift */; };
+		42ED5C35270EC56D000466F2 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C34270EC56D000466F2 /* PieChartView.swift */; };
+		42ED5C37270EC5A4000466F2 /* TimetableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C36270EC5A4000466F2 /* TimetableView.swift */; };
+		42ED5C3C270EC602000466F2 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C3B270EC602000466F2 /* SearchBarView.swift */; };
+		42ED5C3E270EC622000466F2 /* CampusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C3D270EC622000466F2 /* CampusView.swift */; };
+		42ED5C40270EC62D000466F2 /* FeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C3F270EC62D000466F2 /* FeedsView.swift */; };
+		42ED5C42270EC684000466F2 /* ApplicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C41270EC684000466F2 /* ApplicationView.swift */; };
+		42ED5C44270EC68D000466F2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42ED5C43270EC68D000466F2 /* SettingsView.swift */; };
+		42ED5C46270EC6FF000466F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ED5C45270EC6FF000466F2 /* LaunchScreen.storyboard */; };
 		42FDA309264E013100E867B3 /* WasedaTime_FrameworkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDA308264E013100E867B3 /* WasedaTime_FrameworkApp.swift */; };
 		42FDA30D264E013200E867B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FDA30C264E013200E867B3 /* Assets.xcassets */; };
 		42FDA310264E013200E867B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FDA30F264E013200E867B3 /* Preview Assets.xcassets */; };
@@ -15,6 +43,34 @@
 
 /* Begin PBXFileReference section */
 		42ED5BFD270EC067000466F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42ED5C02270EC14B000466F2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		42ED5C05270EC1AC000466F2 /* Glassmorphism.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glassmorphism.swift; sourceTree = "<group>"; };
+		42ED5C07270EC1C3000466F2 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		42ED5C09270EC291000466F2 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		42ED5C0B270EC2B1000466F2 /* SFSafariViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafariViewWrapper.swift; sourceTree = "<group>"; };
+		42ED5C0D270EC2CA000466F2 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		42ED5C12270EC30E000466F2 /* Syllabus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Syllabus.swift; sourceTree = "<group>"; };
+		42ED5C14270EC316000466F2 /* SyllabusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusViewModel.swift; sourceTree = "<group>"; };
+		42ED5C16270EC353000466F2 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		42ED5C18270EC35C000466F2 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		42ED5C1A270EC367000466F2 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		42ED5C1C270EC39E000466F2 /* SyllabusDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusDataService.swift; sourceTree = "<group>"; };
+		42ED5C21270EC3F2000466F2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		42ED5C23270EC3FD000466F2 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		42ED5C25270EC423000466F2 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		42ED5C27270EC444000466F2 /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
+		42ED5C2C270EC502000466F2 /* SyllabusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusView.swift; sourceTree = "<group>"; };
+		42ED5C2E270EC509000466F2 /* SyllabusRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusRowView.swift; sourceTree = "<group>"; };
+		42ED5C30270EC518000466F2 /* SyllabusDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyllabusDetailView.swift; sourceTree = "<group>"; };
+		42ED5C32270EC564000466F2 /* PieSliceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieSliceView.swift; sourceTree = "<group>"; };
+		42ED5C34270EC56D000466F2 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		42ED5C36270EC5A4000466F2 /* TimetableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableView.swift; sourceTree = "<group>"; };
+		42ED5C3B270EC602000466F2 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		42ED5C3D270EC622000466F2 /* CampusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampusView.swift; sourceTree = "<group>"; };
+		42ED5C3F270EC62D000466F2 /* FeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedsView.swift; sourceTree = "<group>"; };
+		42ED5C41270EC684000466F2 /* ApplicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationView.swift; sourceTree = "<group>"; };
+		42ED5C43270EC68D000466F2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		42ED5C45270EC6FF000466F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42FDA305264E013100E867B3 /* WasedaTime-Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WasedaTime-Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FDA308264E013100E867B3 /* WasedaTime_FrameworkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WasedaTime_FrameworkApp.swift; sourceTree = "<group>"; };
 		42FDA30C264E013200E867B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -33,6 +89,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42ED5BFF270EC128000466F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C1E270EC3C2000466F2 /* LaunchScreen */,
+				42ED5C1F270EC3CC000466F2 /* Onboarding */,
+				42ED5C20270EC3DB000466F2 /* SideMenu */,
+				42ED5C01270EC142000466F2 /* Home */,
+				42ED5C29270EC470000466F2 /* Timetable */,
+				42ED5C2A270EC476000466F2 /* Syllabus */,
+				42ED5C38270EC5BE000466F2 /* Campus */,
+				42ED5C39270EC5CE000466F2 /* Feeds */,
+				42ED5C3A270EC5DB000466F2 /* Accessibilities */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42ED5C00270EC130000466F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C11270EC2FB000466F2 /* Syllabus */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		42ED5C01270EC142000466F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C02270EC14B000466F2 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		42ED5C04270EC19F000466F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C09270EC291000466F2 /* BackButton.swift */,
+				42ED5C05270EC1AC000466F2 /* Glassmorphism.swift */,
+				42ED5C0B270EC2B1000466F2 /* SFSafariViewWrapper.swift */,
+				42ED5C0D270EC2CA000466F2 /* UIApplication.swift */,
+				42ED5C07270EC1C3000466F2 /* Color.swift */,
+				42ED5C3B270EC602000466F2 /* SearchBarView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		42ED5C0F270EC2D8000466F2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C16270EC353000466F2 /* NetworkingManager.swift */,
+				42ED5C18270EC35C000466F2 /* PreviewProvider.swift */,
+				42ED5C1A270EC367000466F2 /* HapticManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		42ED5C10270EC2E8000466F2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C1C270EC39E000466F2 /* SyllabusDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		42ED5C11270EC2FB000466F2 /* Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C12270EC30E000466F2 /* Syllabus.swift */,
+				42ED5C14270EC316000466F2 /* SyllabusViewModel.swift */,
+			);
+			path = Syllabus;
+			sourceTree = "<group>";
+		};
+		42ED5C1E270EC3C2000466F2 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C27270EC444000466F2 /* LaunchScreenView.swift */,
+				42ED5C45270EC6FF000466F2 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		42ED5C1F270EC3CC000466F2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C25270EC423000466F2 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		42ED5C20270EC3DB000466F2 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C21270EC3F2000466F2 /* BaseView.swift */,
+				42ED5C23270EC3FD000466F2 /* SideMenu.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		42ED5C29270EC470000466F2 /* Timetable */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C36270EC5A4000466F2 /* TimetableView.swift */,
+			);
+			path = Timetable;
+			sourceTree = "<group>";
+		};
+		42ED5C2A270EC476000466F2 /* Syllabus */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C2B270EC4A9000466F2 /* PieChart */,
+				42ED5C2C270EC502000466F2 /* SyllabusView.swift */,
+				42ED5C2E270EC509000466F2 /* SyllabusRowView.swift */,
+				42ED5C30270EC518000466F2 /* SyllabusDetailView.swift */,
+			);
+			path = Syllabus;
+			sourceTree = "<group>";
+		};
+		42ED5C2B270EC4A9000466F2 /* PieChart */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C32270EC564000466F2 /* PieSliceView.swift */,
+				42ED5C34270EC56D000466F2 /* PieChartView.swift */,
+			);
+			path = PieChart;
+			sourceTree = "<group>";
+		};
+		42ED5C38270EC5BE000466F2 /* Campus */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C3D270EC622000466F2 /* CampusView.swift */,
+			);
+			path = Campus;
+			sourceTree = "<group>";
+		};
+		42ED5C39270EC5CE000466F2 /* Feeds */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C3F270EC62D000466F2 /* FeedsView.swift */,
+			);
+			path = Feeds;
+			sourceTree = "<group>";
+		};
+		42ED5C3A270EC5DB000466F2 /* Accessibilities */ = {
+			isa = PBXGroup;
+			children = (
+				42ED5C41270EC684000466F2 /* ApplicationView.swift */,
+				42ED5C43270EC68D000466F2 /* SettingsView.swift */,
+			);
+			path = Accessibilities;
+			sourceTree = "<group>";
+		};
 		42FDA2FC264E013100E867B3 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +261,11 @@
 			children = (
 				42FDA308264E013100E867B3 /* WasedaTime_FrameworkApp.swift */,
 				42ED5BFD270EC067000466F2 /* ContentView.swift */,
+				42ED5C04270EC19F000466F2 /* Extensions */,
+				42ED5C0F270EC2D8000466F2 /* Utilities */,
+				42ED5C10270EC2E8000466F2 /* Services */,
+				42ED5C00270EC130000466F2 /* Models */,
+				42ED5BFF270EC128000466F2 /* Views */,
 				42FDA30C264E013200E867B3 /* Assets.xcassets */,
 				42FDA311264E013200E867B3 /* Info.plist */,
 				42FDA30E264E013200E867B3 /* Preview Content */,
@@ -126,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ED5C46270EC6FF000466F2 /* LaunchScreen.storyboard in Resources */,
 				42FDA310264E013200E867B3 /* Preview Assets.xcassets in Resources */,
 				42FDA30D264E013200E867B3 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +351,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42ED5C1B270EC367000466F2 /* HapticManager.swift in Sources */,
+				42ED5C0E270EC2CA000466F2 /* UIApplication.swift in Sources */,
+				42ED5C19270EC35C000466F2 /* PreviewProvider.swift in Sources */,
+				42ED5C24270EC3FD000466F2 /* SideMenu.swift in Sources */,
+				42ED5C33270EC564000466F2 /* PieSliceView.swift in Sources */,
+				42ED5C3E270EC622000466F2 /* CampusView.swift in Sources */,
+				42ED5C3C270EC602000466F2 /* SearchBarView.swift in Sources */,
+				42ED5C35270EC56D000466F2 /* PieChartView.swift in Sources */,
+				42ED5C40270EC62D000466F2 /* FeedsView.swift in Sources */,
+				42ED5C03270EC14B000466F2 /* HomeView.swift in Sources */,
 				42ED5BFE270EC067000466F2 /* ContentView.swift in Sources */,
+				42ED5C42270EC684000466F2 /* ApplicationView.swift in Sources */,
+				42ED5C2F270EC509000466F2 /* SyllabusRowView.swift in Sources */,
+				42ED5C0A270EC291000466F2 /* BackButton.swift in Sources */,
 				42FDA309264E013100E867B3 /* WasedaTime_FrameworkApp.swift in Sources */,
+				42ED5C13270EC30E000466F2 /* Syllabus.swift in Sources */,
+				42ED5C1D270EC39E000466F2 /* SyllabusDataService.swift in Sources */,
+				42ED5C08270EC1C3000466F2 /* Color.swift in Sources */,
+				42ED5C44270EC68D000466F2 /* SettingsView.swift in Sources */,
+				42ED5C17270EC353000466F2 /* NetworkingManager.swift in Sources */,
+				42ED5C06270EC1AC000466F2 /* Glassmorphism.swift in Sources */,
+				42ED5C37270EC5A4000466F2 /* TimetableView.swift in Sources */,
+				42ED5C22270EC3F2000466F2 /* BaseView.swift in Sources */,
+				42ED5C0C270EC2B1000466F2 /* SFSafariViewWrapper.swift in Sources */,
+				42ED5C26270EC423000466F2 /* OnboardingView.swift in Sources */,
+				42ED5C31270EC518000466F2 /* SyllabusDetailView.swift in Sources */,
+				42ED5C15270EC316000466F2 /* SyllabusViewModel.swift in Sources */,
+				42ED5C2D270EC502000466F2 /* SyllabusView.swift in Sources */,
+				42ED5C28270EC444000466F2 /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +509,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WasedaTime-Framework/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DVD7FVTR7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WasedaTime-Framework/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,7 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "takumi.ot.WasedaTime-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,9 +531,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WasedaTime-Framework/Preview Content\"";
+				DEVELOPMENT_TEAM = 4DVD7FVTR7;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "WasedaTime-Framework/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +542,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "takumi.ot.WasedaTime-Framework";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
